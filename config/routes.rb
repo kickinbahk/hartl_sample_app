@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  root => 'static_pages#home'
+  root 'static_pages#home'
 
   get 'Help' => 'static_pages#help'
 
@@ -62,4 +62,5 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+
 end
