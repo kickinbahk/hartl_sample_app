@@ -8,7 +8,7 @@ gem 'bcrypt', '3.1.7'
 # Use bootstrap for styling
 gem 'bootstrap-sass', '3.2.0.0'
 # Use SCSS for stylesheets
-gem 'sass-rails' 
+gem 'sass-rails'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '2.5.3'
 # Use CoffeeScript for .coffee assets and views
@@ -45,7 +45,7 @@ group :development, :test do
   gem 'web-console', '2.0.0.beta3'
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
-  gem 'spring', '1.1.3'
+  gem 'spring', '1.6.4'
 end
 
 group :test do
@@ -59,5 +59,3 @@ group :production do
   gem 'rails_12factor', '0.0.2'
   gem 'puma', '2.11.1'
 end
-
-
